@@ -223,6 +223,8 @@ void sys_free(void *ptr);
 #define LWIP_SO_LINGER 1
 #endif
 
+#define LWIP_TCP_CLOSE_TIMEOUT_MS_DEFAULT 0
+
 #if LWIP_SOCKET
 #if CONFIG_HAVE_LIBC
 /* Stop lwip to provide ioctl constants */
