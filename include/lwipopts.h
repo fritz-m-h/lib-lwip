@@ -224,6 +224,7 @@ void sys_free(void *ptr);
 #endif
 
 #define LWIP_TCP_CLOSE_TIMEOUT_MS_DEFAULT 0
+#define TCP_MSL 200
 
 #if LWIP_SOCKET
 #if CONFIG_HAVE_LIBC
